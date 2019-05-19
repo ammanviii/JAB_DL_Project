@@ -22,7 +22,7 @@ for i in range(len(genres)):
     print("Creating Spotify Spectrogram Images for "+genres[i]+"..."+"\n")
     for y in range(len(fileName)):
         wavFile = os.path.join(genreDirectory, fileName[y])
-        # print("WaveFile:", wavFile)
+        # print("WaveFile: " + wavFile)
 
         # Load wave file and separate it to sample rate(sr) and audio time series(y)
         y, sr = librosa.load(wavFile, mono=True)
