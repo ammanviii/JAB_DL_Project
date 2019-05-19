@@ -3,6 +3,7 @@ y.pickle
 genres_wav/*
 spotify_wav/*
 img_data/*
+spotify_img_data/*
 img_data_trial/*
 .vscode/*
 .ipynb_checkpoints/*

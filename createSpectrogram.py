@@ -17,7 +17,7 @@ for i in range(len(genres)):
 
 for i in range(len(genres)):
     genrePath = genres[i]+"/"
-    genreDirectory = os.path.join("genres_wav/", genrePath)
+    genreDirectory = os.path.join("genre_wav/", genrePath)
     fileName = os.listdir(genreDirectory)
     print("Creating Spectrogram Images for "+genres[i]+"..."+"\n")
     for y in range(len(fileName)):
